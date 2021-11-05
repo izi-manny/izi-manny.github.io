@@ -4,9 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>Emmanuel Izilov Portfolio</title>
 </head>
 <body>
-    <h1>Emmanuel Izilov</h1>
+    <section class="about-block top-section">
+        <div class="about-block">
+            <h1 id="hello-heading">Hello there</h1>
+        </div>
+        <div class="about-block" id="intro-block">
+            <h1>My name is <span id="name-span">Emmanuel Izilov</span></h1>
+        </div>
+    </section>
+
+    <section class="contents-menu">
+		<div class="img-clip-block">
+            <div class="img-clip-row">
+                  <div class="img-clip-wrap">
+                  </div>
+            </div>
+
+            <div class="img-clip-row">
+                  <a href="#" class="img-clip-wrap">
+                        <div class="overlay">
+                              <div class="overlay-content">Background
+                </div>
+                        </div>
+                  </a>
+
+                  <a href="#" class="img-clip-wrap">
+                        <div class="overlay">			
+                              <div class="overlay-content">Skills</div>
+                        </div>
+                  </a>
+            </div>
+
+            <div class="img-clip-row">
+                  <a href="#" class="img-clip-wrap polygon-clip-rhombus">
+                        <div class="overlay">
+                              <div class="overlay-content">Projects</div>			
+                        </div>
+                  </a>
+            </div>
+      </div> <!-- /img-clip-block -->
+
+      <svg class="clip-svg">
+            <defs>
+                  <clipPath id="clip-diamond-demo" clipPathUnits="objectBoundingBox">
+                        <polygon points="0.5 0, 1 0.5, 0.5 1, 0 0.5" />
+                  </clipPath>
+            </defs>	
+      </svg>
+    </section>
+
+    <section class="background">
+        <div id="background-title">
+            <h3>Background</h3>
+        </div>
+
+        <ul class="timeline">
+            <!-- Item 1 -->
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="hexa"></span>
+                  <span class="flag">Started work in finance</span>
+                  <span class="time-wrapper"><span class="time">March 2015</span></span>
+                </div>
+                <div class="desc">Worked as a bond analyst at a financial consultancy firm.</div>
+              </div>
+            </li>
+          
+            <!-- Item 2 -->
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="hexa"></span>
+                  <span class="flag">Left job in finance</span>
+                  <span class="time-wrapper"><span class="time">October 2020</span></span>
+                </div>
+                <div class="desc">Left my job at a bank to focus on learning to code.</div>
+              </div>
+            </li>
+          
+            <!-- Item 3 -->
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="hexa"></span>
+                  <span class="flag">Joined DevMountain</span>
+                  <span class="time-wrapper"><span class="time">September 2021</span></span>
+                </div>
+                <div class="desc">Started the Web Development course at DevMountain.</div>
+              </div>
+            </li>
+          </ul>
+    </section>
+
 </body>
 </html>
