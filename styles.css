@@ -852,9 +852,9 @@ header p {
 }
 
 .skill-img {
-  /* display: block; */
+  display: block;
   margin: auto;
-  height: 200px;
+  height: 150px;
 }
 
 .skill-name {
