@@ -9,6 +9,10 @@
   /* box-sizing: border-box; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   background-color: #1f2833;
